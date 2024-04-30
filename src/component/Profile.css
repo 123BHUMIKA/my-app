@@ -1,0 +1,56 @@
+.mainContainer{
+    /* background-color: white; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    height: 50%;
+    width: 20%;
+    margin-left: 40%;
+    margin-top:3%;
+    display: flex;
+    justify-content: center;
+    
+ }
+ .navbar {
+   display: flex;
+   justify-content: right;
+   color: white;
+   background-color: rgb(119, 119, 230);
+   
+ }
+ .Container{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     margin-top: 10%;
+     margin-bottom: 10%;
+ }
+ #btn{
+     width: 97%;
+     height: 700%;
+     margin-left: 2%;
+     margin-right: 2%;
+     
+ }
+  .title{
+     background-color: rgb(109, 109, 217);
+     color: white;
+     
+ }
+ .tableData{
+     text-align:initial;
+ }
+ .tb{
+     margin-top: 3%;
+     margin-left: 15%;
+     width:70%;
+     height: 30%;
+    
+ }
+ th,td{
+     
+   padding-top: 10px;
+   padding-bottom: 20px;
+   padding-left: 30px;
+   padding-right: 40px;
+ }
+ 
+ 

@@ -1,0 +1,59 @@
+#form{
+    padding: 2%;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:fit-content;
+    /* align-items: center; */
+    justify-content:center;
+    flex-direction: column;
+    /* margin:5%; */
+    margin-left: 35%;
+    gap:20px;
+    border-radius: 6px;
+}
+#name{
+    display: flex;
+    justify-content: space-between;
+}
+#Name2{
+ margin-left:14% ;
+
+}
+#footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#NameLabel{
+  margin-bottom:-3%;
+}
+#mail,#password{
+    margin-bottom:-3%;
+}
+#nameError,#mailError,#passwordError{
+    color: red;
+}
+.btn{
+      color: white;
+      background-color: rgb(86,152,252);
+      width: "50vh";
+      height: "8vh";
+      display: "flex";
+      justify-content: "center";
+      align-items: "center";
+      margin: "0 100px";
+      border-Style: "solid";
+      border-Color: "#bbbbbb";
+      border-Radius: "3px";
+}
+.loading{
+    width:100%;
+    height:100vh;
+    z-index: 1;
+    background
+    :rgba(234, 222, 222, 0.19)
+
+   
+    
+}

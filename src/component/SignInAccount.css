@@ -1,0 +1,25 @@
+.innerBox2{
+    width:22%;
+    height:fit-content;
+    margin-left: 40%;
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   flex-direction: column;
+   background-color: white;
+   border-radius: 1vh;
+   padding: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#check{
+   flex-direction: column;
+   /* margin-top: -3%; */
+}
+.header{
+   margin-top: 20vh;
+  text-align: center;
+}
+#mailId,#passwordId{
+   margin-bottom: -3%;
+   /* width:90%; */
+}
